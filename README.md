@@ -1,4 +1,5 @@
 # Список сайтов, заблокированных в Украине (для [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega))
+[![GitHub license](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/LICENSE) [![Twitter feedback](https://img.shields.io/badge/feedback-twitter-blue.svg)](https://twitter.com/psykukumber) [![Telegram feedback](https://img.shields.io/badge/feedback-telegram-blue.svg)](https://t.me/psykukumber)
 
 Данный список предназначен для использования в програмной связке Chromium + [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) + [Shadowsocks](https://shadowsocks.org). С его помощью проксируется трафик только к заблокированным сайтам, в то время, как ко всем остальным - идет напрямую.
 
@@ -26,6 +27,14 @@ https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
 5. Переключите активный профиль на "auto switch"
 
 _Обратите внимание, что для первого способа доступна возможность автоматического обновления. Расширение будет переодически проверять список по ссылке и самостоятельно его обновлять. В случае со вторым способом вам придется обновлять список самостоятельно._
+
+## Что делать, если в списке не хватает какого-то сайта?
+
+Вы можете открыть новый тикет в багтрекере или направить мне пулл реквест и я постара.сь добавить новый сайт в список как можно скорее. Если же вы не хотите ждать, то можете добавить сайт самостоятельно в настройках расширения.
+
+## У меня есть вопрос...
+
+Напишите мне в [Твиттер](https://twitter.com/psykukumber) или [Телеграм](https://t.me/psykukumber)
 
 ## Отказ от ответственности
 
