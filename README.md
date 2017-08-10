@@ -14,6 +14,7 @@
 https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
 ```
 затем нажмите "Apply changes"
+
 5. Переключите активный профиль на "auto switch"
 
 ### Второй способ
