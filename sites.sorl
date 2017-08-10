@@ -1,0 +1,33 @@
+﻿[SwitchyOmega Conditions]
+; List of sites that blocked in Ukraine
+; Maked by Psykukumber and licensed under Public Domain
+; Full info: https://github.com/Psykukumber/ua-proxy-list
+; Require: SwitchyOmega >= 2.3.2
+; Date: 8/10/2017
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+*.vk.com
+*.vkontakte.ru
+*.userapi.com
+*.vk.cc
+*.vk.me
+*.vkuservideo.net
+*.vkuserlive.com
+*.odnoklassniki.ru
+*.ok.ru
+*.yandex.ru
+*.yandex.ua
+*.yandex.com
+*.ya.ru
+*.mail.ru
+*.kaspersky.ru
+*.drweb.ru
+*.kinopoisk.ru
+*.2ch.hk
+*.2ch.pm
+*.2ch.re
+*.2ch.tf
+*.2ch.wf
+*.2ch.yt
+*.2-ch.so
+*.imgsmail.ru
