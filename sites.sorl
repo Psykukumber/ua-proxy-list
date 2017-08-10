@@ -20,6 +20,8 @@
 *.yandex.com
 *.ya.ru
 *.mail.ru
+*.imgsmail.ru
+*.mycdn.me
 *.kaspersky.ru
 *.drweb.ru
 *.kinopoisk.ru
@@ -30,4 +32,3 @@
 *.2ch.wf
 *.2ch.yt
 *.2-ch.so
-*.imgsmail.ru
