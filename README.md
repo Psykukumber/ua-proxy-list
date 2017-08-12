@@ -1,15 +1,17 @@
 # Список сайтов, заблокированных в Украине (для [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega))
 [![GitHub license](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/LICENSE) [![Twitter feedback](https://img.shields.io/badge/feedback-twitter-blue.svg)](https://twitter.com/psykukumber) [![Telegram feedback](https://img.shields.io/badge/feedback-telegram-blue.svg)](https://t.me/psykukumber)
 
-Данный список предназначен для использования в програмной связке Chromium + [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) + [Shadowsocks](https://shadowsocks.org). С его помощью проксируется трафик только к заблокированным сайтам, в то время, как ко всем остальным - идет напрямую.
+Данный список предназначен для использования в програмной связке Chromium/Firefox + [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) + [Shadowsocks](https://shadowsocks.org). С его помощью проксируется трафик только к заблокированным сайтам, в то время, как ко всем остальным - идет напрямую.
 
 ## Использование
 
-### Первый способ
+_Только для Chrome. Если вы пользуетесь Firefox, используйте [эту инструкцию.](https://github.com/Psykukumber/ua-proxy-list/wiki/Firefox-Configuration)_
 
-1. Установите [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) и пропишите в него адрес вашего SOCKS5-прокси
+### Первый способ 
+
+1. Установите [SwithyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) и пропишите в него адрес вашего SOCKS5-прокси
 2. Откройте настройки SwitchyOmega > Profiles > auto proxy
-3. В разделе "Switch Rules" установите галку напротив "Rule list rules" и выберите ваш профиль прокси
+3. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
 4. В поле "Rule List URL" вставьте ссылку:
 ```
 https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
@@ -20,9 +22,9 @@ https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
 
 ### Второй способ
 
-1. Установите [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) и пропишите в него адрес вашего SOCKS5-прокси
+1. Установите [SwithyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) и пропишите в него адрес вашего SOCKS5-прокси
 2. Откройте настройки SwitchyOmega > Profiles > auto proxy
-3. В разделе "Switch Rules" установите галку напротив "Rule list rules" и выберите ваш профиль прокси
+3. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
 4. В поле "Rule List Text" вставьте содержимое из файла sites.sorl, затем нажмите "Apply changes"
 5. Переключите активный профиль на "auto switch"
 
