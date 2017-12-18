@@ -22,6 +22,8 @@
 *.yandex.st
 *.yastatic.net
 *.ya.ru
+*.webvisor.com
+*.yadi.sk
 *.mail.ru
 *.imgsmail.ru
 *.cldmail.ru
@@ -38,5 +40,3 @@
 *.2ch.wf
 *.2ch.yt
 *.2-ch.so
-*.webvisor.com
-*.yadi.sk
