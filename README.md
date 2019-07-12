@@ -5,11 +5,7 @@
 
 ## Использование
 
-_Только для Chrome. Если вы пользуетесь Firefox, используйте [эту инструкцию.](https://github.com/Psykukumber/ua-proxy-list/wiki/Firefox-Configuration)_
-
-### Первый способ 
-
-1. Установите [SwithyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) и пропишите в него адрес вашего SOCKS5-прокси
+1. Установите SwithyOmega ([Chrome](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)) и пропишите в него адрес вашего SOCKS5-прокси
 2. Откройте настройки SwitchyOmega > Profiles > auto proxy
 3. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
 4. В поле "Rule List URL" вставьте ссылку:
@@ -20,15 +16,11 @@ https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
 
 5. Переключите активный профиль на "auto switch"
 
-### Второй способ
+_Примечание: настоятельно рекомендуется изменить DNS-сервера в настройках вашего интернет-подключения на следующие:_
 
-1. Установите [SwithyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) и пропишите в него адрес вашего SOCKS5-прокси
-2. Откройте настройки SwitchyOmega > Profiles > auto proxy
-3. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
-4. В поле "Rule List Text" вставьте содержимое из файла sites.sorl, затем нажмите "Apply changes"
-5. Переключите активный профиль на "auto switch"
-
-_Обратите внимание, что для первого способа доступна возможность автоматического обновления. Расширение будет переодически проверять список по ссылке и самостоятельно его обновлять. В случае со вторым способом вам придется обновлять список самостоятельно._
+* _[1.1.1.1](https://1.1.1.1) от CloudFlare_
+* _[8.8.8.8](https://8.8.8.8) или [8.8.4.4](https://8.8.4.4) от Google_
+* _[OpenNIC](https://www.opennic.org/)_
 
 ## Что делать, если в списке не хватает какого-то сайта?
 
