@@ -3,7 +3,7 @@
 ; Maked by Psykukumber and licensed under Public Domain
 ; Full info: https://github.com/Psykukumber/ua-proxy-list
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 8/10/2017
+; Date: 7/12/2019
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.vk.com
@@ -29,6 +29,7 @@
 *.imgsmail.ru
 *.cldmail.ru
 *.mycdn.me
+*.my.games
 *.icq.com
 *.maps.me
 *.kaspersky.ru
