@@ -1,30 +1,31 @@
 # Список сайтов, заблокированных в Украине (для [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega))
-[![GitHub license](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/LICENSE) [![Twitter feedback](https://img.shields.io/badge/feedback-twitter-blue.svg)](https://twitter.com/psykukumber) [![Telegram feedback](https://img.shields.io/badge/feedback-telegram-blue.svg)](https://t.me/psykukumber)
 
 Данный список предназначен для использования в програмной связке Chromium/Firefox + [SwithyOmega](https://github.com/FelisCatus/SwitchyOmega) + [Shadowsocks](https://shadowsocks.org). С его помощью проксируется трафик только к заблокированным сайтам, в то время, как ко всем остальным - идет напрямую.
 
 ## Использование
 
-1. Установите SwithyOmega ([Chrome](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)) и пропишите в него адрес вашего SOCKS5-прокси
-2. Откройте настройки SwitchyOmega > Profiles > auto proxy
-3. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
-4. В поле "Rule List URL" вставьте ссылку:
+_**Похоже на то, что расширение SwitchyOmega давно не обновлялось, а его автор забросил разработку. На данный момент данная инструкция работает, но я посмотрю, как можно решить данную проблему.**_
+
+1. Установите SwithyOmega 
+    * [Chromium-based](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) (Google Chrome, Vivaldi, Microsoft Edge)
+    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) 
+2. Пропишите в настройках расширения адрес вашего SOCKS5-прокси
+3. Откройте настройки SwitchyOmega > Profiles > auto proxy
+4. Нажмите кнопку "Add a rule list". В разделе "Switch Rules" найдите графу "Rule list rules" и выберите ваш профиль прокси.
+5. В поле "Rule List URL" вставьте ссылку:
 ```
 https://raw.githubusercontent.com/Psykukumber/ua-proxy-list/master/sites.sorl
 ```
-затем нажмите "Apply changes"
 
-5. Переключите активный профиль на "auto switch"
 
-_Примечание: настоятельно рекомендуется изменить DNS-сервера в настройках вашего интернет-подключения на следующие:_
+6. Примените настройки, нажав "Apply changes". 
+7. Переключите активный профиль на "auto switch".
 
-* _[1.1.1.1](https://1.1.1.1) от CloudFlare_
-* _[8.8.8.8](https://8.8.8.8) или [8.8.4.4](https://8.8.4.4) от Google_
-* _[OpenNIC](https://www.opennic.org/)_
+_Примечание: настоятельно рекомендуется изменить DNS-сервера в настройках вашего интернет-подключения. Список DNS-серверов можно взять [здесь](https://www.privacytools.io/providers/dns/)._
 
 ## Что делать, если в списке не хватает какого-то сайта?
 
-Вы можете открыть новый тикет в багтрекере или направить мне пулл реквест и я постара.сь добавить новый сайт в список как можно скорее. Если же вы не хотите ждать, то можете добавить сайт самостоятельно в настройках расширения.
+Вы можете открыть новый тикет в багтрекере или направить мне пулл реквест и я постараюсь добавить новый сайт в список как можно скорее. Если же вы не хотите ждать, то можете добавить сайт самостоятельно в настройках расширения.
 
 ## У меня есть вопрос...
 
